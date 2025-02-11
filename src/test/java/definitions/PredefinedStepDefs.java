@@ -223,4 +223,9 @@ public class PredefinedStepDefs {
     }
 
 
+    @Then("I click Enter button")
+    public void iClickEnterButton() {
+        Actions actions = new Actions(getDriver());
+        actions.sendKeys(org.openqa.selenium.Keys.ENTER).perform();
+    }
 }
