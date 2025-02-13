@@ -3,7 +3,7 @@ Assessment control selenium tests
 
 **How to push your changes to GitHub**
 
-1 Cut your own branch from master locally: **git checkout -b name_of_your_branch** OR **git switch -c name_of_your_branch**.
+1 Cut your own branch from main locally: **git checkout -b name_of_your_branch** OR **git switch -c name_of_your_branch**.
 Name convention for Branch name: **FirstName_LastNameInitial_TaskJiraID**
 
 2 To verify that you created the branch (your currently branch will appear in green) **git branch**
@@ -22,11 +22,11 @@ To see the difference, you can also use **git diff**
 
 8 You could recheck the commit history by typing **git log**
 
-9 Switch to master to update code on master branch: **git checkout master** AND **git pull**
+9 Switch to main to update code on main branch: **git checkout main** AND **git pull**
 
 10 Switch to your branch again: **git checkout name_of_your_branch**
 
-11 To make sure there won't be any conflicts in your future PR (Pull Request) run command **git merge master**
+11 To make sure there won't be any conflicts in your future PR (Pull Request) run command **git merge main**
 
 12 Run project to double-check if it is not broken.
 
