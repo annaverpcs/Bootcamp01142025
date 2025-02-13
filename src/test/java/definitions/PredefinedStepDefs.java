@@ -21,7 +21,6 @@ public class PredefinedStepDefs {
     public void iOpenUrl(String url) {
         getDriver().get(url);
     }
-
     @Then("I resize window to {int} and {int}")
     public void iResizeWindowToAnd(int width, int height) {
         Dimension dimension = new Dimension(width, height);
@@ -37,7 +36,7 @@ public class PredefinedStepDefs {
     public void iMaximizeWindow() {
         java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
         Dimension maxWindowSize = new Dimension((int) screenSize.getWidth(), (int) screenSize.getHeight());
-        getDriver().manage().window().setPosition(new Point(0, 0));
+        getDriver().manage().window().setPosition(new Point(0,0));
         getDriver().manage().window().setSize(maxWindowSize);
     }
 
@@ -163,7 +162,7 @@ public class PredefinedStepDefs {
     public void iSwitchToNewWindow() {
         Iterator<String> iterator = getDriver().getWindowHandles().iterator();
         String newWindow = iterator.next();
-        while (iterator.hasNext()) {
+        while(iterator.hasNext()) {
             newWindow = iterator.next();
         }
         getDriver().switchTo().window(newWindow);
