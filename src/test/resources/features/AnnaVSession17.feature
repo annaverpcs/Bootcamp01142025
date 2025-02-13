@@ -59,7 +59,7 @@ Feature: Medical Center Test scenarios
     Then I wait for element with xpath "//span[contains(text(),'Make an appointment')]" to be present
     Then I type "AnnaV first appointment" into element with xpath "//textarea[@id='note']"
     And I wait for 1 sec
-    And I click on element with xpath "//select[@name='employee_id']/..//option[5]"
+    And I click on element with xpath "//select[@name='employee_id']/..//option[@value='fe1aa9d7-fcbd-40a5-bb90-b7279df2562b']"
     Then I type "02/12/2025" into element with xpath " //input[@id='date']"
     And I wait for 1 sec
     Then I click on element with xpath "//button[contains(text(),'09:00 AM')]"
