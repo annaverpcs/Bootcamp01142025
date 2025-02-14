@@ -19,13 +19,13 @@ public class AnnaVStepDefs {
         //getDriver().get("https://medicenter-qa2.vercel.app/");
         switch(sApplicationName){
             case "Medicenter V1":
-                getDriver().get("https://medicenter-qa1.vercel.app/");
+                getDriver().get(xPathLibrary.sMedicenterV1URL);
                 break;
             case "Medicenter V2":
-                getDriver().get("https://medicenter-qa2.vercel.app/");
+                getDriver().get(xPathLibrary.sMedicenterV2URL);
                 break;
             case "Google":
-                getDriver().get("https://www.google.com/");
+                getDriver().get(xPathLibrary.sGoogleURL);
                 break;
             default:
                 System.out.println("There is no such URL. Please check the spelling");
@@ -46,13 +46,13 @@ public class AnnaVStepDefs {
     public void annavClickOnButton(String sButtonName) {
         switch (sButtonName){
             case "Login":
-                getDriver().findElement(By.xpath("//button[contains(text(),'Login')]")).click();
+                getDriver().findElement(By.xpath(xPathLibrary.sLoginButton)).click();
                 break;
             case "Create Account":
-                getDriver().findElement(By.xpath("//button[contains(text(),'Create account')]")).click();
+                getDriver().findElement(By.xpath(xPathLibrary.sCreateAccountButton)).click();
                 break;
             case "Sign In":
-                getDriver().findElement(By.xpath("//button[@type='submit']")).click();
+                getDriver().findElement(By.xpath(xPathLibrary.sSignInButton)).click();
                 break;
             default:
                 System.out.println("There is no such button on this page");
@@ -64,9 +64,9 @@ public class AnnaVStepDefs {
     @Then("AnnaV type {string} to {string} textfield")
     public void annavTypeToTextfield(String sText, String sTextFieldName) {
         switch (sTextFieldName) {
-            case "Email": getDriver().findElement(By.xpath("//input[@id='email']")).sendKeys(sText);
+            case "Email": getDriver().findElement(By.xpath(xPathLibrary.sEmailTextField)).sendKeys(sText);
             break;
-            case "Password":getDriver().findElement(By.xpath("//input[@id='password']")).sendKeys(sText);
+            case "Password":getDriver().findElement(By.xpath(xPathLibrary.sPasswordTextField)).sendKeys(sText);
             break;
             default:
                 System.out.println("There is no such element on this page");
