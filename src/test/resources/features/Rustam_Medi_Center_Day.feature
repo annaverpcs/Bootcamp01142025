@@ -1,6 +1,6 @@
 # Author Rustam R
 # Test case JAN-615 Test set-UserStory#5
-
+@medicenter
 Feature: Testing Medi Center
 
   Background: Login as Administrator

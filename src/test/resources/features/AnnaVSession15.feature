@@ -1,8 +1,8 @@
 #  Author:
 # Jira ID 123
-  @regression
+  @regression @medicenter
 Feature: Search Engines
-   @smoke @medicenter
+   @smoke
   # www.gibiru.com exercise
   Scenario: Search by www.gibiru.com
     Given I open url "https://gibiru.com/"
