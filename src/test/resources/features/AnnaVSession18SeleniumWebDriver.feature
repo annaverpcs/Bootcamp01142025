@@ -1,6 +1,6 @@
 #author: Anna V
 #Merdical Center scenarios
-
+@medicenter
 Feature: Medical Center Test scenarios using Selenium WebDriver methods
  Scenario: Login
   Given AnnaV launch "Medicenter V2"

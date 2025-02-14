@@ -1,6 +1,6 @@
 #author: Anna V
 #Merdical Center scenarios
-
+@medicenter
 Feature: Medical Center DD Scenarios using Selenium WebDriver methods
 
   Scenario Outline: Login DD test scenario

@@ -1,5 +1,6 @@
 #Author: Tatyana Aipova
 #Jira
+@medicenter
 Feature: Test for  valid login (MediCenter)
   Scenario: Login for https://medicenter-qa2.vercel.app
    Given I open url "https://medicenter-qa2.vercel.app"
