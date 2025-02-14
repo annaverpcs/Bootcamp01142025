@@ -1,6 +1,6 @@
 #author: Anna V
 #Merdical Center scenarios
-
+@medicenter
 Feature: Medical Center Test scenarios
 
   Background:
@@ -18,7 +18,7 @@ Feature: Medical Center Test scenarios
     Then I wait for element with xpath "//h1[contains(text(),'Mary Poppins')]" to be present
     Then element with xpath "//h1[contains(text(),'Mary Poppins')]" should contain text "Mary Poppins"
     And element with xpath "//h1[contains(text(),'Medical Center')]" should be displayed
-
+ @regression
   Scenario: Create and Delete an Appointment from Daily Calendar
     And I wait for 1 sec
     Then I click on element with xpath "//button[contains(text(),'Appointments')]"
