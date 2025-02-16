@@ -130,6 +130,7 @@ public class PredefinedStepDefs {
     public void elementWithXpathShouldContainText(String xpath, String text) {
         String actualText = getDriver().findElement(By.xpath(xpath)).getText();
         assertThat(actualText).containsIgnoringCase(text);
+        //assertThat(actualText).contains(text);
     }
 
     @Then("element with xpath {string} should not contain text {string}")

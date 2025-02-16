@@ -1,6 +1,6 @@
 #Author Efrain Nunez
   #Medicenter Administrator Calendar Test Set
-
+@medicenter
 Feature: Appointment Calendar Test scenarios
 
   Background:
