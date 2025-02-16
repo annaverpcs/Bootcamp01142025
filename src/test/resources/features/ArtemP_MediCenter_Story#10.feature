@@ -1,7 +1,8 @@
 # Author: Artem P.
 # Jira ID# 123
+@medicenter
 Feature: User story #10 - Contact page.
-@Medicenter
+
 
   # https://medicenter-qa2.vercel.app/
   Scenario: "Contact Us" page available for guest

@@ -1,6 +1,6 @@
 #Athor: SerhiiS
   #Jira id: JAN-166Feature:
-
+@medicenter
 Feature: Test Set for User Story "As an administrator, I can cancel an appointment"
 
   #Background consists test case: User can login as administrator with valid credentials. Jira ID JAN-451

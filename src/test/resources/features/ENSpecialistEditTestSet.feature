@@ -1,7 +1,7 @@
 #Author Efrain Nunez
   #Medicenter Administrator Edit Specialist Test Set
 
-
+@medicenter
 Feature: Edit specialist info
 
   Background:

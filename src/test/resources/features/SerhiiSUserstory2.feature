@@ -1,6 +1,6 @@
 #Athor: SerhiiS
   #Jira id: JAN-165
-
+@medicenter
 Feature: Test Set for User Story: "As an administrator, I can login to MediCenter"
 
   Background:
