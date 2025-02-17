@@ -44,9 +44,9 @@ Feature: Testing Medi Center
     Then I type "R R" into element with xpath "//input[@id='user_name']"
     Then I type "test" into element with xpath "//textarea[@id='note']"
     Then I click on element with xpath "//select[@name='employee_id']"
-    And I click on element with xpath "//select[@name='employee_id']/..//option[16]"
+    And I click on element with xpath "//select[@name='employee_id']/option[@value='0ee1f37c-8528-4197-829a-a4ca2efec01e']"
     Then I wait for 3 sec
-    And I type "02/13/2025" into element with xpath "//input[@name='date']"
+    And I type "02/18/2025" into element with xpath "//input[@name='date']"
     And I wait for 3 sec
     Then I click on element with xpath "//div[@role='radiogroup'][1]"
     And I wait for 3 sec

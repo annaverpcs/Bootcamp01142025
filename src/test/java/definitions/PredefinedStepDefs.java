@@ -111,7 +111,7 @@ public class PredefinedStepDefs {
     public void iTakeScreenshot() throws Exception {
         TakesScreenshot screenshotTaker = (TakesScreenshot) getDriver();
         File screenshot = screenshotTaker.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(screenshot, new File("target/screenshot " + new Date() + ".png"));
+        FileUtils.copyFile(screenshot, new File("target/screenshot.png"));
     }
 
     @Then("element with xpath {string} should have text as {string}")
@@ -216,6 +216,7 @@ public class PredefinedStepDefs {
         executor.executeScript("window.scrollBy(0, " + offset + ");", element);
         Thread.sleep(500);
     }
+
 
     @When("I mouse over element with xpath {string}")
     public void iMouseOverElementWithXpath(String xpath) {
