@@ -1,7 +1,7 @@
 #Author Efrain Nunez
   #Medicenter Administrator Filter Calendar Test Sets
 @medicenter
-Feature: Filter calender appointments by type of specialist
+Feature: Filter calender appointments by type of specialist Efrain Nunez
 
   Background:
       # Administrator 2 Login - Calvin Grant

@@ -1,6 +1,6 @@
 # Bug report JAN-672
 @medicenter
-Feature: Testing Medi_Center
+Feature: Testing Medi_Center Rustam R
  # As Administrator inputs wrong appointment date and try to change it to date
  # which starts with "0" the application hangs
 

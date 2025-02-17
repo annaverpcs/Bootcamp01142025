@@ -1,7 +1,7 @@
 #  Author: Tatyana Aipova
 #  Jira
 @medicenter
-Feature: Test for  valid login (MediCenter)
+Feature: Test for  valid login (MediCenter) SerhiiS
   Scenario: Login for https://medicenter-qa2.vercel.app
     Given I open url "https://medicenter-qa2.vercel.app"
     Then I should see page title as "Medicenter"

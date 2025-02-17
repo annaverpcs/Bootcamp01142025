@@ -1,6 +1,6 @@
 # Author: Artem P.
 # Jira ID# 123
-Feature: Search engines
+Feature: Search engines Artem P.
 
 # www.gibiru.com execise
   Scenario: Search by gibiru.com

@@ -1,7 +1,7 @@
 #Author Efrain Nunez
   #Medicenter Administrator Calendar Test Set
 @medicenter
-Feature: Appointment Calendar Test scenarios
+Feature: Appointment Calendar Test scenarios Efrain Nunez
 
   Background:
       # Administrator 2 Login - Calvin Grant

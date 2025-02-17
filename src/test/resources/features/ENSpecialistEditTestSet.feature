@@ -2,7 +2,7 @@
   #Medicenter Administrator Edit Specialist Test Set
 
 @medicenter
-Feature: Edit specialist info
+Feature: Edit specialist info Efrain Nunez
 
   Background:
       # Administrator 2 Login - Calvin Grant
