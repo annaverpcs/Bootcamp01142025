@@ -1,7 +1,7 @@
 # Author: Artem P.
 # Jira ID# 123
 @medicenter
-Feature: User story #10 - Contact page.
+Feature: User story #10 - Contact page. Artem P.
 
 
   # https://medicenter-qa2.vercel.app/

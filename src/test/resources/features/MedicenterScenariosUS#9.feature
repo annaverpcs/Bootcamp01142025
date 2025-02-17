@@ -1,7 +1,7 @@
 #Author: Aleksey R
 #MediCenter Scenarios
-
-Feature: Medical Center Test Scenarios
+@medicenter
+Feature: Medical Center Test Scenarios Aleksey R
 
  Background:
       Given I open url "https://medicenter-qa2.vercel.app/"

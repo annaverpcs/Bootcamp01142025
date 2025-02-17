@@ -1,7 +1,7 @@
 # Author: Artem P.
 # Jira ID# 123
 @medicenter
-Feature: User story #5 - Make an appointment as admin.
+Feature: User story #5 - Make an appointment as admin. Artem P.
 
 
   # https://medicenter-qa2.vercel.app/

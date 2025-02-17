@@ -3,7 +3,7 @@
 
   @medicenter
   @functional
-Feature: Functional tests for user stories #2 and #6
+Feature: Functional tests for user stories #2 and #6 Yulia Hammond
 
   Scenario: Administrator can login with valid credentials
     Given I open url "https://medicenter-qa2.vercel.app/"

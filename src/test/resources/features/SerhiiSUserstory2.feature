@@ -1,7 +1,7 @@
 #Athor: SerhiiS
   #Jira id: JAN-165
 @medicenter
-Feature: Test Set for User Story: "As an administrator, I can login to MediCenter"
+Feature: Test Set for User Story: "As an administrator, I can login to MediCenter" SerhiiS
 
   Background:
     Given I open url "https://medicenter-qa2.vercel.app/"
