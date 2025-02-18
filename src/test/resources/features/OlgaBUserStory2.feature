@@ -1,7 +1,8 @@
 #author: Olga B
 # Medical Center scenarios
 #User Story 2
-Feature: Medical Center Test scenarios
+@medicenter
+Feature: Medical Center Test scenarios Olga B
 
   Scenario: Login as Administrator
     Given I open url "https://medicenter-qa2.vercel.app/"

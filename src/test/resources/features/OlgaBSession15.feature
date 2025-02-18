@@ -1,6 +1,7 @@
 #Author:
 #Jira ID 123
-Feature: Search Engines
+@medicenter
+Feature: Search Engines Olga B
 
    #www.gibiru.com exercise
   Scenario: Search by www.gibiru.com 
