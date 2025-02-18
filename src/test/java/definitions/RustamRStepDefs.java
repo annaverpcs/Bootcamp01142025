@@ -133,7 +133,6 @@ public class RustamRStepDefs {
         getDriver().findElement(By.xpath(sTypeDate)).sendKeys(sDate);
         getDriver().findElement(By.xpath(sChooseTime)).click();
 
-
     }
 
 

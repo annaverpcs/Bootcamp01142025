@@ -5,7 +5,7 @@
 @medicenter
 Feature:TestingMediCenter
 # Administrator loggs in and navigates to the appointments page
-  Background:
+  Background:git
     Given RustamR launch "MediCenter-v2"
     Then RustamR page title is "Medical Center"
     Then RustamR log in

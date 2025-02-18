@@ -11,18 +11,14 @@ public class xPathLibraryRustam {
     public static String sMediCenterV2 = "https://medicenter-qa2.vercel.app/";
     public static String sGoogleURL = "https://www.google.com/";
     public static String sText = "//h1[contains(text(),'Medical Center')]";
-
-
     public static String sMedicenterV1URL = "https://medicenter-qa1.vercel.app/";
     public static String sMedicenterV2URL = "https://medicenter-qa2.vercel.app/";
     public static String sGoogleUrl = "https://www.google.com/";
-
     public static String sLoginButton = "//button[contains(text(),'Login')]";
     public static String sCreateAccountButton = "//button[contains(text(),'Create account')]";
     public static String sSignInButton = "//button[@type='submit']";
     public static String sEmailTextField = "//input[@id='email']";
     public static String sPasswordTextField = "//input[@id='password']";
-
     public static String sEmail = "administrator1@gmail.com";
     public static String sPassword = "abc123";
     public static String sTitle = "Medicenter";
