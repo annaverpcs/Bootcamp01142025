@@ -90,7 +90,7 @@ Feature: Functional tests for user stories #2 and #6 Yulia Hammond
     Then I type "administrator2@gmail.com" into element with xpath "//input[@id='email']"
     And I type "abc123" into element with xpath "//input[@id='password']"
     And I click on element with xpath "//button[@type='submit']"
-     #Home page
+  #Home page
     Then I wait for element with xpath "//h1[contains(text(),'Calvin Grant')]" to be present
     Then element with xpath "//h1[contains(text(),'Calvin Grant')]" should contain text "Calvin Grant"
     And element with xpath "//h1[contains(text(),'Medical Center')]" should be displayed
