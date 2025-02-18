@@ -229,4 +229,9 @@ public class PredefinedStepDefs {
         Actions actions = new Actions(getDriver());
         actions.sendKeys(org.openqa.selenium.Keys.ENTER).perform();
     }
+
+
+    @And("I wait for element with xpath {string}Invalid login credentials{string} to be present")
+    public void iWaitForElementWithXpathInvalidLoginCredentialsToBePresent(String arg0, String arg1) {
+    }
 }
